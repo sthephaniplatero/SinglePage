@@ -1,0 +1,296 @@
+/* Fondo verde personalizado */
+.bg-success {
+  background-color: #4CAF50 !important;
+}
+
+/* Enlaces del navbar */
+.navbar .nav-link {
+  color: #f5f5f5 !important;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #81C784 !important;
+}
+
+.logo-text {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.logo-construyendo {
+  color: #E67E22; 
+}
+
+.logo-habitos {
+  color: #FF9933; 
+}
+
+.titulo-nutricionistas {
+  text-align: center;          
+  margin-bottom: 2rem;           
+  font-weight: 700;              
+  font-size: 2.2rem;             
+  color: #2C3E50;                
+  font-family: 'Quicksand', sans-serif;  
+  letter-spacing: 1px;           
+  position: relative;           
+}
+
+.titulo-nutricionistas::after {
+  content: "";                   
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #E67E22;     
+  margin: 8px auto 0;            
+  border-radius: 2px;            
+}
+
+.btn-logout {
+  background-color: #E67E22; 
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-logout:hover {
+  background-color: #FF9933; /* Naranja más claro */
+  transform: translateY(-2px);
+}
+
+
+.custom-btn {
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  padding: 0.4rem 1.2rem;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.custom-btn:hover {
+  background-color: #c82333; /* un rojo más oscuro */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.bienvenida-container {
+  text-align: center;          
+  margin: 2.5rem 0;              
+  padding: 1.5rem;               
+  background-color: #F7F9FB;     
+  border-radius: 12px;           
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 600px;              
+  margin-left: auto;            
+  margin-right: auto;            
+}
+
+.bienvenida-titulo {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.8rem;            
+  color: #2C3E50;               
+  font-weight: 600;           
+  letter-spacing: 0.5px;       
+}
+
+.bienvenida-titulo::after {
+  content: "";                   
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #E67E22;     
+  margin: 10px auto 0;          
+  border-radius: 2px;            
+}
+
+
+/* Contenedor principal del login */
+.login-container {
+  margin-top: 5rem;
+}
+
+/* Tarjeta del login */
+.login-card {
+  background-color: #F7F9FB;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.login-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Título del login */
+.login-titulo {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2C3E50;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.login-titulo::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #E67E22;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+/* Inputs */
+.login-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.login-input:focus {
+  border-color: #E67E22;
+  outline: none;
+  box-shadow: 0 0 5px rgba(230, 126, 34, 0.5);
+}
+
+/* Botón principal */
+.login-btn {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background-color: #E67E22;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #d76a12;
+}
+
+/* Texto de registro / inicio sesión */
+.login-texto {
+  margin-top: 1.2rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.btn-switch {
+  background: none;
+  border: none;
+  color: #E67E22;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 5px;
+  transition: color 0.3s;
+}
+
+.btn-switch:hover {
+  color: #d76a12;
+}
+
+/* Título de sección */
+.titulo-nutricionistas {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #2C3E50;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.titulo-nutricionistas::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #E67E22;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Imagen */
+.card-img-top {
+  width: 100%;
+  height: 250px;         
+  max-height: 250px;    
+  object-fit: cover;   
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+/* Card body */
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  color: #2C3E50;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-family: 'Quicksand', sans-serif;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Link de Instagram */
+.card-text a {
+  color: #E67E22;
+  transition: color 0.3s;
+}
+
+.card-text a:hover {
+  color: #d76a12;
+  text-decoration: underline;
+}
+
+/* Card footer */
+.card-footer {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.9rem;
+  color: #888;
+  background-color: #f8f9fa;
+}
+
+
